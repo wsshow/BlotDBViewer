@@ -1,0 +1,3 @@
+[submodule "ui/boltdbviewer"]
+	path = ui/boltdbviewer
+	url = https://github.com/wsshow/BoltDBViewer-UI.git
