@@ -15,7 +15,7 @@ func Init(c *cmd.Command) *gin.Engine {
 		gin.SetMode(gin.ReleaseMode)
 	}
 	r.Use(
-		middleware.RateLimit(time.Second, 100, 10),
+		middleware.RateLimit(time.Second, 1000, 100),
 		middleware.Cors(),
 		gin.Logger(),
 		gin.Recovery(),
